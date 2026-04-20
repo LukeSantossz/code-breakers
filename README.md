@@ -1,53 +1,53 @@
 # Code Breakers - LeetCode Solutions
 
-Repositório pessoal para registro e acompanhamento de soluções do LeetCode em Python.
+Personal repository for tracking and documenting LeetCode solutions in Python.
 
-## Progresso Semanal
+## Weekly Progress
 
-| Semana | Problema | Dificuldade | Link |
-|--------|----------|-------------|------|
+| Week | Problem | Difficulty | Link |
+|------|---------|------------|------|
 | 1 | Contains Duplicate | Easy | [217](https://leetcode.com/problems/contains-duplicate/) |
 | 1 | Valid Anagram | Easy | [242](https://leetcode.com/problems/valid-anagram/) |
 | 1 | Two Sum | Easy | [1](https://leetcode.com/problems/two-sum/) |
 | 1 | Group Anagrams | Medium | [49](https://leetcode.com/problems/group-anagrams/) |
 
-## Estatísticas
+## Stats
 
-| Dificuldade | Resolvidos |
-|-------------|------------|
-| Easy        | 3          |
-| Medium      | 1          |
-| Hard        | 0          |
-| **Total**   | **4**      |
+| Difficulty | Solved |
+|------------|--------|
+| Easy       | 3      |
+| Medium     | 1      |
+| Hard       | 0      |
+| **Total**  | **4**  |
 
-## Estrutura do Repositório
+## Repository Structure
 
 ```
 code-breakers/
-├── easy/           # Problemas de dificuldade Easy
-├── medium/         # Problemas de dificuldade Medium
-├── hard/           # Problemas de dificuldade Hard
-└── templates/      # Template para documentação
+├── easy/           # Easy problems
+├── medium/         # Medium problems
+├── hard/           # Hard problems
+└── templates/      # Documentation template
 ```
 
-## Como Usar
+## Usage
 
-### Adicionando uma nova solução
+### Adding a new solution
 
-1. Crie uma pasta dentro de `easy/`, `medium/` ou `hard/` com o formato:
+1. Create a folder inside `easy/`, `medium/` or `hard/` with the format:
    ```
-   XXX-nome-do-problema/
+   XXX-problem-name/
    ```
 
-2. Dentro da pasta, crie:
-   - `solution.py` - Código da solução
-   - `README.md` - Documentação (use o template em `templates/SOLUTION_TEMPLATE.md`)
+2. Inside the folder, create:
+   - `solution.py` - Solution code
+   - `README.md` - Documentation (use template from `templates/SOLUTION_TEMPLATE.md`)
 
-3. Atualize a tabela de progresso semanal neste README
+3. Update the weekly progress table in this README
 
-4. Atualize as estatísticas
+4. Update the stats
 
-### Exemplo
+### Example
 
 ```
 easy/
@@ -56,7 +56,7 @@ easy/
     └── README.md
 ```
 
-## Links Úteis
+## Useful Links
 
 - [LeetCode](https://leetcode.com/)
 - [NeetCode Roadmap](https://neetcode.io/roadmap)
